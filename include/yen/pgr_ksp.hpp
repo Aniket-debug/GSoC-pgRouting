@@ -4,6 +4,9 @@ File: pgr_ksp.hpp
 Copyright (c) 2015 Celia Virginia Vergara Castillo
 Mail: vicky_vergara@hotmail.com
 
+Copyright (c) 2023 Aniket Agarwal
+Mail: aniketgarg187@gmail.com
+
 Copyright (c) 2023 Abhinav Jain
 Mail: this.abhinav AT gmail.com
 ------
@@ -28,7 +31,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 #define INCLUDE_YEN_PGR_KSP_HPP_
 #pragma once
 
-
+#include <map>
 #include <sstream>
 #include <deque>
 #include <vector>

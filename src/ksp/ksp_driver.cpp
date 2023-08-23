@@ -84,11 +84,11 @@ void  pgr_do_ksp(
         if (directed) {
             pgrouting::DirectedGraph digraph(gType);
             digraph.insert_edges(data_edges, total_edges);
-            paths = pgrouting::algorithms::ksp(digraph, combinations, k, heap_paths);
+            paths = pgrouting::algorithms::Yen(digraph, combinations, k, heap_paths);
         } else {
             pgrouting::UndirectedGraph undigraph(gType);
             undigraph.insert_edges(data_edges, total_edges);
-            paths = pgrouting::algorithms::ksp(undigraph, combinations, k, heap_paths);
+            paths = pgrouting::algorithms::Yen(undigraph, combinations, k, heap_paths);
         }
 
 
